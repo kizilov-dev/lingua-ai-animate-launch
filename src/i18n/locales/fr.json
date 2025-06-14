@@ -2,16 +2,16 @@
 {
   "hero": {
     "title": "Votre tuteur linguistique IA personnel",
-    "subtitle": "Atteignez la maîtrise avec votre partenaire linguistique alimenté par l’IA. Profitez de conversations interactives et recevez des retours instantanés pour parler avec confiance, plus rapidement.",
+    "subtitle": "Atteignez la maîtrise avec votre partenaire linguistique alimenté par l'IA. Profitez de conversations interactives et recevez des retours instantanés pour parler avec confiance, plus rapidement.",
     "cta": "Commencer à apprendre"
   },
   "description": {
     "title": "Plus qu'une appli, c'est votre partenaire de conversation",
-    "desc": "Marre de mémoriser des listes de vocabulaire? Nous croyons à l'apprentissage par la conversation. Parlez naturellement, recevez des retours instantanés et gagnez la confiance d’aborder tous les sujets.",
+    "desc": "Marre de mémoriser des listes de vocabulaire? Nous croyons à l'apprentissage par la conversation. Parlez naturellement, recevez des retours instantanés et gagnez la confiance d'aborder tous les sujets.",
     "benefits": [
       {
         "title": "Parlez de ce que vous aimez",
-        "desc": "Entraînez-vous sur des sujets qui vous tiennent à cœur. Notre IA s’adapte à vos centres d’intérêt pour rendre chaque discussion plaisante."
+        "desc": "Entraînez-vous sur des sujets qui vous tiennent à cœur. Notre IA s'adapte à vos centres d'intérêt pour rendre chaque discussion plaisante."
       },
       {
         "title": "Progressez à chaque mot",
@@ -26,5 +26,118 @@
         "desc": "Visualisez vos progrès en temps réel. Notre système suit vos réussites et vous motive à chaque étape."
       }
     ]
+  },
+  "features": {
+    "title": "Une meilleure voie vers la fluidité",
+    "subtitle": "Notre méthode est simple, efficace et construite autour de vous. Voici comment vous passerez de débutant à locuteur confiant en quatre étapes faciles.",
+    "steps": [
+      {
+        "title": "1. Commencez une conversation",
+        "description": "Choisissez un sujet qui vous intéresse ou laissez notre IA vous en suggérer un. De la discussion de votre film préféré au débat sur un sujet d'actualité, le choix vous appartient."
+      },
+      {
+        "title": "2. Parlez naturellement",
+        "description": "Engagez-vous dans une conversation fluide et naturelle. Notre IA écoute, comprend et respond comme une vraie personne, vous encourageant à vous exprimer librement."
+      },
+      {
+        "title": "3. Recevez des retours instantanés",
+        "description": "Après votre conversation, obtenez une analyse détaillée de votre performance. Voyez les corrections, apprenez du nouveau vocabulaire et obtenez des conseils sur la prononciation."
+      },
+      {
+        "title": "4. Observez votre amélioration",
+        "description": "Suivez vos progrès au fil du temps avec notre tableau de bord intuitif. Fixez-vous de nouveaux objectifs, revisitez les leçons passées et voyez votre fluidité s'envoler."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Tarification simple",
+    "subtitle": "Des plans honnêtes et abordables. Commencez gratuitement—passez à la version supérieure quand vous voulez!",
+    "disclaimer": "Annulez à tout moment. Pas de frais cachés. Montez ou descendez en gamme à votre guise.",
+    "plans": [
+      {
+        "name": "Débutant",
+        "price": "Gratuit",
+        "description": "Essayez la plateforme avec des leçons d'exemple.",
+        "features": [
+          "2 leçons IA gratuites",
+          "Retours de base",
+          "Aucune carte requise"
+        ],
+        "cta": "Commencer gratuit"
+      },
+      {
+        "name": "Pro",
+        "price": "14€",
+        "subtitle": "par mois",
+        "description": "Sessions linguistiques illimitées. Retours complets de conversation. Support prioritaire.",
+        "features": [
+          "Conversations IA illimitées",
+          "Retours et suggestions avancés",
+          "Analyses de progression",
+          "Support prioritaire"
+        ],
+        "cta": "Prendre Pro"
+      },
+      {
+        "name": "Ultime",
+        "price": "99€",
+        "subtitle": "par an",
+        "description": "Une année de leçons illimitées à gros rabais.",
+        "features": [
+          "Tout ce qui est dans Pro",
+          "Économisez 69€ vs mensuel",
+          "Graphique de progression annuel"
+        ],
+        "cta": "Commencer gratuit"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à parler couramment?",
+    "subtitle": "Commencez aujourd'hui avec votre propre professeur IA. Progressez à chaque leçon—selon votre emploi du temps.",
+    "button": "S'inscrire gratuitement →"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos apprenants",
+    "reviews": [
+      {
+        "name": "Anna M.",
+        "text": "J'ai essayé d'innombrables applis de langues, mais c'est la première fois que j'ai l'impression d'avoir un vrai tuteur disponible 24h/24. Les retours instantanés sont inestimables!"
+      },
+      {
+        "name": "Lucas J.",
+        "text": "Pratiquer avec l'IA est ce qui se rapproche le plus d'une vraie conversation. Ma confiance a grimpé en flèche."
+      },
+      {
+        "name": "Sara T.",
+        "text": "Je peux étudier quand je veux. C'est comme avoir un professeur dans ma poche. Hautement recommandé pour tout apprenant de langues!"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "questions": [
+      {
+        "q": "En quoi est-ce différent des autres applis de langues?",
+        "a": "Vous obtenez une conversation interactive en temps réel avec une IA, plus des retours personnalisés—comme un tuteur personnel, mais toujours disponible!"
+      },
+      {
+        "q": "Quelles langues puis-je apprendre?",
+        "a": "Nous commençons avec l'anglais, l'espagnol et le français, mais plus de langues seront ajoutées bientôt. Faites-nous savoir vos demandes!"
+      },
+      {
+        "q": "Puis-je l'essayer gratuitement?",
+        "a": "Absolument! Vous obtenez des leçons gratuites avec notre plan Débutant—aucune carte de crédit requise."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "Professeur IA de Langues Virtuel. Tous droits réservés.",
+    "links": {
+      "features": "Fonctionnalités",
+      "pricing": "Tarification",
+      "getStarted": "Commencer",
+      "faq": "FAQ"
+    }
   }
 }

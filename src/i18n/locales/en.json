@@ -26,5 +26,118 @@
         "desc": "See your progress in real-time. Our smart-tracking system visualizes your achievements, motivating you every step of the way."
       }
     ]
+  },
+  "features": {
+    "title": "A Better Way to Fluency",
+    "subtitle": "Our method is simple, effective, and built around you. Here's how you'll go from beginner to confident speaker in four easy steps.",
+    "steps": [
+      {
+        "title": "1. Start a Conversation",
+        "description": "Choose a topic that interests you or let our AI suggest one. From discussing your favorite movie to debating a hot topic, the choice is yours."
+      },
+      {
+        "title": "2. Speak Naturally",
+        "description": "Engage in a flowing, natural conversation. Our AI listens, understands, and responds like a real person, encouraging you to express yourself freely."
+      },
+      {
+        "title": "3. Receive Instant Feedback",
+        "description": "After your chat, get a detailed breakdown of your performance. See corrections, learn new vocabulary, and get tips on pronunciation."
+      },
+      {
+        "title": "4. Watch Yourself Improve",
+        "description": "Track your progress over time with our intuitive dashboard. Set new goals, revisit past lessons, and see your fluency soar."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Honest, affordable plans. Start free—upgrade anytime!",
+    "disclaimer": "Cancel anytime. No hidden fees. Upgrade or downgrade as you wish.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "Free",
+        "description": "Try the platform with sample lessons.",
+        "features": [
+          "2 Free AI lessons",
+          "Basic feedback",
+          "No card required"
+        ],
+        "cta": "Start Free"
+      },
+      {
+        "name": "Pro",
+        "price": "$14",
+        "subtitle": "per month",
+        "description": "Unlimited language sessions. Full chat feedback. Priority support.",
+        "features": [
+          "Unlimited AI conversations",
+          "Advanced feedback & suggestions",
+          "Progress analytics",
+          "Priority support"
+        ],
+        "cta": "Get Pro"
+      },
+      {
+        "name": "Ultimate",
+        "price": "$99",
+        "subtitle": "per year",
+        "description": "Year of unlimited lessons at a big discount.",
+        "features": [
+          "Everything in Pro",
+          "Save $69 vs monthly",
+          "Annual progress chart"
+        ],
+        "cta": "Start Free"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Speak Fluently?",
+    "subtitle": "Start today with your own AI teacher. Progress with every lesson—on your schedule.",
+    "button": "Sign Up Free →"
+  },
+  "testimonials": {
+    "title": "What Our Learners Say",
+    "reviews": [
+      {
+        "name": "Anna M.",
+        "text": "I've tried countless language apps, but this is the first time I've felt like I have a real tutor available 24/7. The instant feedback is priceless!"
+      },
+      {
+        "name": "Lucas J.",
+        "text": "Practicing with the AI is as close as I've come to actual conversation. My confidence has skyrocketed."
+      },
+      {
+        "name": "Sara T.",
+        "text": "I can study whenever I want. It's like having a teacher in my pocket. Highly recommended for any language learner!"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "How is this different from other language apps?",
+        "a": "You get real-time, interactive conversation with an AI, plus tailored feedback—like a personal tutor, but always available!"
+      },
+      {
+        "q": "What languages can I learn?",
+        "a": "We're starting with English, Spanish, and French, but more languages will be added soon. Let us know your requests!"
+      },
+      {
+        "q": "Can I try it for free?",
+        "a": "Absolutely! You get free lessons with our Starter plan—no credit card required."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "Virtual AI Language Teacher. All Rights Reserved.",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "getStarted": "Get Started",
+      "faq": "FAQ"
+    }
   }
 }
