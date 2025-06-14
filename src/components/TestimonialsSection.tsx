@@ -24,23 +24,19 @@ const TestimonialsSection: React.FC = () => {
           {reviews.map((review, i) => (
             <div
               key={review.name}
-              className="rounded-2xl bg-white shadow-xl p-8 flex flex-col items-center relative animate-fade-in-up
-                         transition-all duration-500 ease-out hover:-translate-y-3 hover:shadow-2xl
-                         hover:scale-105 cursor-pointer group border border-transparent hover:border-indigo-100"
+              className="rounded-2xl bg-white shadow-xl p-8 flex flex-col items-center animate-fade-in-up
+                         transition-shadow duration-300 hover:shadow-2xl cursor-pointer"
               style={{ animationDelay: `${0.15 + i * 0.12}s` } as React.CSSProperties}
             >
               <img 
                 src={avatars[i]} 
                 alt={review.name} 
-                className="w-20 h-20 rounded-full object-cover mb-4 border-4 border-primary
-                           transition-all duration-300 group-hover:scale-110 group-hover:border-violet-500" 
+                className="w-20 h-20 rounded-full object-cover mb-4 border-4 border-primary" 
               />
-              <blockquote className="italic text-muted-foreground text-lg mb-4 text-center
-                                     group-hover:text-indigo-700 transition-colors duration-300">
+              <blockquote className="italic text-muted-foreground text-lg mb-4 text-center">
                 &ldquo;{review.text}&rdquo;
               </blockquote>
-              <span className="text-indigo-700 font-semibold group-hover:text-violet-600 
-                               transition-colors duration-300 transform group-hover:scale-105">
+              <span className="text-indigo-700 font-semibold">
                 {review.name}
               </span>
             </div>
