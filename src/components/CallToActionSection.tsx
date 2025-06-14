@@ -9,7 +9,7 @@ const CallToActionSection: React.FC = () => (
         <p className="text-indigo-100 mb-8 text-lg md:text-xl">Start today with your own AI teacher. Progress with every lesson—on your schedule.</p>
         <a
           href="#"
-          className="inline-block px-10 py-4 rounded-2xl text-lg font-bold bg-white text-primary shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-300"
+          className="inline-block px-10 py-4 rounded-2xl text-lg font-bold bg-white text-primary shadow-lg hover:shadow-2xl transition-transform duration-300 transform hover:scale-105 animate-pulse-subtle"
         >
           Sign Up Free &rarr;
         </a>

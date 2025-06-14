@@ -98,12 +98,17 @@ export default {
 					'50%': { transform: 'translateY(-12px)' },
 					'100%': { transform: 'translateY(0)' },
 				},
+        'pulse-subtle': {
+            '0%, 100%': { transform: 'scale(1)' },
+            '50%': { transform: 'scale(1.03)' },
+        },
 			},
 			animation: {
 				'fade-in-up': 'fade-in-up 0.6s cubic-bezier(0.33,1,0.68,1) both',
 				'slow-float': 'slow-float 6s ease-in-out infinite',
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+        'pulse-subtle': 'pulse-subtle 2.5s ease-in-out infinite',
 			}
 		}
 	},
