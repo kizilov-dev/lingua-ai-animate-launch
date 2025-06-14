@@ -5,8 +5,9 @@ import { useTranslation } from "react-i18next";
 const DescriptionSection: React.FC = () => {
   const { t } = useTranslation();
 
-  // Extracts benefits for the current language, fallback to an empty array if not present
-  const benefits: { title: string; desc: string }[] = t("description.benefits", { returnObjects: true }) || [];
+  // Properly type and handle the benefits array with fallback
+  const benefitsData = t("description.benefits", { returnObjects: true });
+  const benefits: { title: string; desc: string }[] = Array.isArray(benefitsData) ? benefitsData : [];
 
   return (
     <section className="py-20 lg:py-24 bg-gradient-to-b from-white to-indigo-50/60">
