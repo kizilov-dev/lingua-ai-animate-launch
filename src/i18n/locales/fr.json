@@ -1,0 +1,30 @@
+
+{
+  "hero": {
+    "title": "Votre tuteur linguistique IA personnel",
+    "subtitle": "Atteignez la maîtrise avec votre partenaire linguistique alimenté par l’IA. Profitez de conversations interactives et recevez des retours instantanés pour parler avec confiance, plus rapidement.",
+    "cta": "Commencer à apprendre"
+  },
+  "description": {
+    "title": "Plus qu'une appli, c'est votre partenaire de conversation",
+    "desc": "Marre de mémoriser des listes de vocabulaire? Nous croyons à l'apprentissage par la conversation. Parlez naturellement, recevez des retours instantanés et gagnez la confiance d’aborder tous les sujets.",
+    "benefits": [
+      {
+        "title": "Parlez de ce que vous aimez",
+        "desc": "Entraînez-vous sur des sujets qui vous tiennent à cœur. Notre IA s’adapte à vos centres d’intérêt pour rendre chaque discussion plaisante."
+      },
+      {
+        "title": "Progressez à chaque mot",
+        "desc": "N'attendez pas les corrections. Recevez un retour instantané sur la grammaire, la prononciation et le vocabulaire pour accélérer votre apprentissage."
+      },
+      {
+        "title": "Comprenez la culture, pas seulement la grammaire",
+        "desc": "Allez au-delà des livres. Maîtrisez idiomes, nuances culturelles et l'art de la conversation pour parler comme un natif."
+      },
+      {
+        "title": "Suivez votre progression vers la fluidité",
+        "desc": "Visualisez vos progrès en temps réel. Notre système suit vos réussites et vous motive à chaque étape."
+      }
+    ]
+  }
+}
