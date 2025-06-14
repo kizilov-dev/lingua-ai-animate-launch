@@ -10,7 +10,7 @@ const HeroSection: React.FC = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const appImage = "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1920&q=80";
+  const appImage = "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=1920&q=80";
 
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center text-center overflow-hidden">
