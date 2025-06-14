@@ -39,7 +39,7 @@ const plans = [
 ];
 
 const PricingSection: React.FC = () => (
-  <section className="py-24 bg-gradient-to-b from-white to-indigo-50" id="pricing">
+  <section className="py-20 bg-gradient-to-b from-white to-indigo-50" id="pricing">
     <div className="max-w-5xl mx-auto px-6 text-center">
       <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-4 text-primary animate-fade-in-up">
         Simple Pricing

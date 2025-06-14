@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -91,8 +90,8 @@ export default {
 					}
 				},
 				'fade-in-up': {
-					'0%': { opacity: '0', transform: 'translateY(48px)' },
-					'100%': { opacity: '1', transform: 'translateY(0)' },
+					'0%': { opacity: '0', transform: 'translateY(20px) scale(0.98)' },
+					'100%': { opacity: '1', transform: 'translateY(0) scale(1)' },
 				},
 				'slow-float': {
 					'0%': { transform: 'translateY(0)' },
@@ -101,7 +100,7 @@ export default {
 				},
 			},
 			animation: {
-				'fade-in-up': 'fade-in-up 0.7s cubic-bezier(0.33,1,0.68,1) both',
+				'fade-in-up': 'fade-in-up 0.6s cubic-bezier(0.33,1,0.68,1) both',
 				'slow-float': 'slow-float 6s ease-in-out infinite',
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
@@ -110,4 +109,3 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-

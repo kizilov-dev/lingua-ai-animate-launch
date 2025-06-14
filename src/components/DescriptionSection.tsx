@@ -2,12 +2,12 @@
 import React from "react";
 
 const DescriptionSection: React.FC = () => (
-  <section className="py-16 lg:py-24 bg-gradient-to-b from-white to-indigo-50/60">
-    <div className="max-w-4xl mx-auto text-center px-6">
+  <section className="py-16 lg:py-20 bg-gradient-to-b from-white to-indigo-50/60">
+    <div className="max-w-3xl mx-auto text-center px-6">
       <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-4 text-primary animate-fade-in-up">
         Why settle for passive learning?
       </h2>
-      <p className="text-lg md:text-2xl text-muted-foreground mb-8 animate-fade-in-up" style={{animationDelay:'0.1s'}}>
+      <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-fade-in-up" style={{animationDelay:'0.1s'}}>
         Jump into live, AI-powered conversations tailored to <span className="font-bold text-primary">your goals</span>.<br />
         Our virtual AI teacher adapts to your pace, interests, and fluency level.
       </p>

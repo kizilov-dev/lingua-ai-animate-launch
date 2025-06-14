@@ -20,7 +20,7 @@ const testimonials = [
 ];
 
 const TestimonialsSection: React.FC = () => (
-  <section className="py-20 bg-gradient-to-r from-purple-50 via-indigo-50 to-white" id="testimonials">
+  <section className="py-16 bg-gradient-to-r from-purple-50 via-indigo-50 to-white" id="testimonials">
     <div className="max-w-5xl mx-auto px-6">
       <h2 className="font-playfair text-4xl md:text-5xl font-bold text-center mb-12 text-indigo-700 animate-fade-in-up">
         What Our Learners Say

@@ -25,8 +25,8 @@ const features = [
 ];
 
 const FeaturesSection: React.FC = () => (
-  <section className="py-20 bg-gradient-to-t from-indigo-50/50 to-white" id="features">
-    <div className="max-w-6xl mx-auto px-6">
+  <section className="py-16 bg-gradient-to-t from-indigo-50/50 to-white" id="features">
+    <div className="max-w-5xl mx-auto px-6">
       <h2 className="font-playfair text-4xl md:text-5xl font-bold text-center mb-12 text-primary animate-fade-in-up">
         How It Works
       </h2>

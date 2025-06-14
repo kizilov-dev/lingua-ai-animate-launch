@@ -18,7 +18,7 @@ const faqs = [
 ];
 
 const FAQSection: React.FC = () => (
-  <section className="py-16 bg-gradient-to-l from-violet-50 to-indigo-50" id="faq">
+  <section className="py-12 bg-gradient-to-l from-violet-50 to-indigo-50" id="faq">
     <div className="max-w-3xl mx-auto px-6">
       <h2 className="font-playfair text-4xl md:text-5xl font-bold text-center mb-8 text-primary animate-fade-in-up">
         Frequently Asked Questions
