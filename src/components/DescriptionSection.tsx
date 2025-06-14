@@ -3,20 +3,20 @@ import React from "react";
 
 const benefits = [
     {
-        title: "True-to-Life Conversations",
-        description: "Practice speaking about topics you actually care about. Our AI adapts to your interests, making every conversation unique and engaging.",
+        title: "Chat About What You Love",
+        description: "Practice speaking about topics you actually care about. Our AI adapts to your interests, making every conversation fun and engaging.",
     },
     {
-        title: "Instant, Actionable Feedback",
-        description: "No more waiting. Get real-time corrections on grammar, pronunciation, and word choice to improve faster.",
+        title: "Improve With Every Word",
+        description: "Don't wait for feedback. Get instant corrections on your grammar, pronunciation, and word choice to accelerate your learning.",
     },
     {
-        title: "Master a Language, Not Just Words",
-        description: "Go beyond vocabulary. Understand cultural nuances, idioms, and context to speak with confidence and authenticity.",
+        title: "Understand Culture, Not Just Grammar",
+        description: "Go beyond textbook learning. Master idioms, cultural nuances, and the art of conversation to speak like a native.",
     },
     {
-        title: "See Your Fluency Grow",
-        description: "Our smart-tracking system visualizes your progress, highlighting strengths and areas for improvement.",
+        title: "Track Your Journey to Fluency",
+        description: "See your progress in real-time. Our smart-tracking system visualizes your achievements, motivating you every step of the way.",
     }
 ]
 
@@ -25,10 +25,10 @@ const DescriptionSection: React.FC = () => (
     <div className="max-w-5xl mx-auto px-6">
       <div className="text-center">
         <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-4 text-primary animate-fade-in-up">
-            Go Beyond Flashcards
+            More Than an App, It's Your Conversation Partner
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-up" style={{animationDelay:'0.1s'}}>
-            Traditional apps teach you words. We teach you how to have conversations. Speak, get feedback, and gain real-world confidence.
+            Tired of memorizing vocabulary lists? We believe in learning through conversation. Speak naturally, get instant feedback, and build the confidence to chat about anything.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">

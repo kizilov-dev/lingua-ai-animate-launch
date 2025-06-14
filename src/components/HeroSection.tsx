@@ -10,15 +10,15 @@ const HeroSection: React.FC = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const appImage = "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&w=1920&q=80";
+  const appImage = "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1920&q=80";
 
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center text-center overflow-hidden">
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center"
+        className="absolute inset-0 z-0 bg-cover bg-center will-change-transform"
         style={{
           backgroundImage: `url(${appImage})`,
-          transform: `translateY(${offsetY * 0.4}px)`,
+          transform: `translateY(${offsetY * 0.2}px)`,
         }}
         aria-hidden="true"
       />
@@ -29,13 +29,13 @@ const HeroSection: React.FC = () => {
         <h1
           className="text-5xl md:text-7xl font-playfair font-bold drop-shadow-xl animate-fade-in-up"
         >
-          Meet Your Virtual AI Language Teacher
+          Your Personal AI Language Tutor
         </h1>
         <p
           className="text-xl md:text-2xl max-w-3xl text-white/90 mb-6 animate-fade-in-up"
           style={{ animationDelay: "0.15s" } as React.CSSProperties}
         >
-          Master languages with 1:1 interactive lessons. Real conversation, feedback, and fun—all guided by state-of-the-art AI.
+          Unlock fluency with your AI-powered language partner. Enjoy fun, interactive conversations and get instant feedback to speak confidently, faster.
         </p>
         <a
           href="#pricing"
