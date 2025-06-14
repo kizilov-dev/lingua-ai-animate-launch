@@ -13,9 +13,17 @@ const CallToActionSection: React.FC = () => {
           <p className="text-indigo-100 mb-8 text-lg md:text-xl">{t("cta.subtitle")}</p>
           <a
             href="#"
-            className="inline-block px-10 py-4 rounded-2xl text-lg font-bold bg-white text-primary shadow-lg hover:shadow-2xl transition-transform duration-300 transform hover:scale-105 animate-pulse-subtle"
+            className="inline-block px-10 py-4 rounded-2xl text-lg font-bold bg-white text-primary shadow-lg 
+                       transition-all duration-500 ease-out transform hover:scale-110 hover:shadow-2xl
+                       hover:-translate-y-1 hover:bg-gradient-to-r hover:from-white hover:to-indigo-50
+                       focus:outline-none focus:ring-4 focus:ring-white/50 focus:ring-offset-4 focus:ring-offset-violet-600
+                       active:scale-95 relative overflow-hidden group"
           >
-            {t("cta.button")}
+            <span className="relative z-10 transition-colors duration-300 group-hover:text-violet-700">
+              {t("cta.button")}
+            </span>
+            <div className="absolute inset-0 bg-gradient-to-r from-violet-100 to-indigo-100 opacity-0 
+                            group-hover:opacity-100 transition-opacity duration-500"></div>
           </a>
         </div>
       </div>

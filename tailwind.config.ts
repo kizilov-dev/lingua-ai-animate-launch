@@ -102,6 +102,15 @@ export default {
             '0%, 100%': { transform: 'scale(1)' },
             '50%': { transform: 'scale(1.03)' },
         },
+        'smooth-bounce': {
+          '0%, 100%': { transform: 'translateY(0) scale(1)' },
+          '50%': { transform: 'translateY(-8px) scale(1.05)' },
+        },
+        'gradient-shift': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        }
 			},
 			animation: {
 				'fade-in-up': 'fade-in-up 0.6s cubic-bezier(0.33,1,0.68,1) both',
@@ -109,6 +118,8 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
         'pulse-subtle': 'pulse-subtle 2.5s ease-in-out infinite',
+        'smooth-bounce': 'smooth-bounce 2s ease-in-out infinite',
+        'gradient-shift': 'gradient-shift 3s ease-in-out infinite',
 			}
 		}
 	},
