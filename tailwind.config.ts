@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,6 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				playfair: ['Playfair Display', 'serif'],
+				sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -84,9 +89,20 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'fade-in-up': {
+					'0%': { opacity: '0', transform: 'translateY(48px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' },
+				},
+				'slow-float': {
+					'0%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-12px)' },
+					'100%': { transform: 'translateY(0)' },
+				},
 			},
 			animation: {
+				'fade-in-up': 'fade-in-up 0.7s cubic-bezier(0.33,1,0.68,1) both',
+				'slow-float': 'slow-float 6s ease-in-out infinite',
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
 			}
@@ -94,3 +110,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
